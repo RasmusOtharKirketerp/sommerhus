@@ -1,0 +1,456 @@
+<!doctype html><html lang="da"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Sommerhuse – fund og 200 m-tjek</title>
+<style>
+:root{--bg:#f6f7f4;--fg:#1f2a24;--muted:#5d6b63;--card:#fff;--ok:#1e7a46;--no:#b3261e;--maybe:#a66b00}
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--fg)}
+main{max-width:1100px;margin:0 auto;padding:1rem}h1{margin:.5rem 0}
+.note{background:#fff8e1;border-left:4px solid var(--maybe);padding:.75rem 1rem;border-radius:6px}
+.controls{display:flex;flex-wrap:wrap;gap:.75rem;margin:1rem 0;align-items:end}
+label{display:flex;flex-direction:column;font-size:.85rem;color:var(--muted)}select{font-size:1rem;padding:.35rem;border-radius:6px;border:1px solid #ccd}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:1rem}
+.card{background:var(--card);border-radius:10px;padding:1rem;box-shadow:0 1px 3px rgba(0,0,0,.08);border-top:5px solid var(--maybe);display:flex;flex-direction:column}
+.card.ok{border-top-color:var(--ok)}.card.no{border-top-color:var(--no)}
+.card h2{font-size:1.1rem;margin:0 0 .3rem}.meta{color:var(--muted);font-size:.9rem;margin:.2rem 0 .6rem}
+.badge{display:inline-block;font-size:.8rem;padding:.1rem .5rem;border-radius:99px;color:#fff;background:var(--maybe)}.badge.ok{background:var(--ok)}.badge.no{background:var(--no)}
+dl{display:grid;grid-template-columns:auto 1fr;gap:.15rem .75rem;margin:0;font-size:.92rem}dt{color:var(--muted)}dd{margin:0}
+.why{font-size:.85rem;color:var(--muted);flex:1}.link{font-weight:600;color:#14532d}
+footer{color:var(--muted);font-size:.85rem;margin:2rem 0}
+</style></head><body><main>
+<h1>Sommerhuse – fund og 200 m-tjek</h1>
+<p>30 huse i Danmark og Sydsverige. Krav: ingen andre boliger inden for 200 m (husets eget anneks/udhus tæller ikke). Opfylder kravet: <strong>0</strong>.</p>
+<p class="note"><strong>Bemærk:</strong> Afstande og antal boliger (*) er egne målinger på kortdata (OpenStreetMap og Microsoft Global ML Building Footprints) og kan være forkerte. Alle bygninger på mindst 25 m² er talt som mulige boliger, også selv om nogle kan være lader, garager eller husets egne bygninger. Kortdata kan mangle bygninger, især i Sverige. Svenske priser er omregnet med 1 SEK = 0,6727 DKK. Pris og størrelser er mæglerens oplysninger.</p>
+<div class="controls">
+<label>Status<select id="fs"><option value="">Alle</option><option>opfylder</option><option>usikkert</option><option>opfylder ikke</option></select></label>
+<label>Land<select id="fl"><option value="">Alle</option><option>Danmark</option><option>Sverige</option></select></label>
+<label>Sortér<select id="so"><option value="n">Færrest boliger inden for 200 m</option><option value="pris">Pris (lav til høj)</option><option value="navn">Navn</option></select></label>
+<span id="cnt"></span></div>
+<section class="grid" id="g">
+<article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="1395000" data-n="98" data-navn="Halvrebene 45, Als (Hadsund)">
+<header><h2>Halvrebene 45, Als (Hadsund)</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Kattegat-kysten ved Als, Hadsund · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>1.395.000 kr.</dd>
+<dt>Bolig</dt><dd>70 m²</dd>
+<dt>Grund</dt><dd>1.222 m²</dd>
+<dt>Afstand til vand</dt><dd>3. række fra Kattegat (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>34 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>98</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">98 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 34 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 3 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.johnfrandsen.dk/sag/of6123/halvrebene-45-als-9560-hadsund/" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="895000" data-n="133" data-navn="Fyrrevej 4, Egense">
+<header><h2>Fyrrevej 4, Egense</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Egense ved Limfjorden · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>895.000 kr.</dd>
+<dt>Bolig</dt><dd>78 m²</dd>
+<dt>Grund</dt><dd>1.252 m²</dd>
+<dt>Afstand til vand</dt><dd>ca. 300 m til kysten (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>33 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>133</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">133 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 33 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 5 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.nybolig.dk/fritidshus/9280/fyrrevej/n105478/n1054780000728" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="1100000" data-n="104" data-navn="Klitrosevej 5, Lystrup Strand">
+<header><h2>Klitrosevej 5, Lystrup Strand</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Lystrup Strand, Allingåbro · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>1.100.000 kr.</dd>
+<dt>Bolig</dt><dd>53 m²</dd>
+<dt>Grund</dt><dd>305 m²</dd>
+<dt>Afstand til vand</dt><dd>100 m (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>30 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>104</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">104 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 30 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 8 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.johnfrandsen.dk/sag/34040000569/klitrosevej-5-lystrup-strand-8961-allingaabro/" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="1345000" data-n="124" data-navn="Søndergade 40, Hou">
+<header><h2>Søndergade 40, Hou</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Hou ved Kattegat · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>1.345.000 kr.</dd>
+<dt>Bolig</dt><dd>79 m²</dd>
+<dt>Grund</dt><dd>1.440 m²</dd>
+<dt>Afstand til vand</dt><dd>200 m til sandstrand (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>43 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>124</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">124 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 43 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 4 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.realmaeglerne.dk/bolig/448-0377-soendergade-40" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="1285000" data-n="122" data-navn="Boelengen 5, Hou">
+<header><h2>Boelengen 5, Hou</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Hou ved Kattegat · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>1.285.000 kr.</dd>
+<dt>Bolig</dt><dd>86 m²</dd>
+<dt>Grund</dt><dd>1.251 m²</dd>
+<dt>Afstand til vand</dt><dd>300 m til strand (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>32 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>122</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">122 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 32 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 4 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.realmaeglerne.dk/bolig/448-0263-boelengen-5-hou" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="1245000" data-n="189" data-navn="Papegøjevej 7, Kongsmark Strand">
+<header><h2>Papegøjevej 7, Kongsmark Strand</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Kongsmark Strand, Slagelse · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>1.245.000 kr.</dd>
+<dt>Bolig</dt><dd>68 m²</dd>
+<dt>Grund</dt><dd>800 m²</dd>
+<dt>Afstand til vand</dt><dd>250 m til havet (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>36 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>189</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">189 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 36 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 4 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.nybolig.dk/fritidshus/4200/papegoejevej/n104918/n1049180001548" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="1495000" data-n="75" data-navn="Frødammen 9, Bjerge Nordstrand">
+<header><h2>Frødammen 9, Bjerge Nordstrand</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Bjerge Nordstrand, Store Fuglede · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>1.495.000 kr.</dd>
+<dt>Bolig</dt><dd>52 m²</dd>
+<dt>Grund</dt><dd>1.201 m²</dd>
+<dt>Afstand til vand</dt><dd>ca. 1 km til badestrand (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>31 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>75</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">75 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 31 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 4 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.edc.dk/alle-boliger/sommerhus/4480-store-fuglede/froedammen-9/44105880/" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="1295000" data-n="78" data-navn="Svanevænget 10, Tørslev Hage">
+<header><h2>Svanevænget 10, Tørslev Hage</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Tørslev Hage ved Roskilde Fjord · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>1.295.000 kr.</dd>
+<dt>Bolig</dt><dd>50 m²</dd>
+<dt>Grund</dt><dd>1.007 m²</dd>
+<dt>Afstand til vand</dt><dd>300 m til fjorden (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>31 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>78</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">78 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 31 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 5 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.brikk.dk/ejendom/svanevaenget-10-3630-jaegerspris/" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="1379000" data-n="9" data-navn="Bjursund Horsviken 6, Loftahammar">
+<header><h2>Bjursund Horsviken 6, Loftahammar</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Bjursund ved Loftahammar, Småland-kysten · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>2.050.000 SEK (ca. 1.379.000 kr.)</dd>
+<dt>Bolig</dt><dd>78 m²</dd>
+<dt>Grund</dt><dd>1.511 m²</dd>
+<dt>Afstand til vand</dt><dd>&#x27;badrocksavstånd&#x27; til brygge (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>111 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>9</dd>
+<dt>Sikkerhed i vurdering</dt><dd>middel</dd>
+</dl>
+<p class="why">9 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 111 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Campingplads (Caravan Club Bjursund) inden for 200 m ifølge OSM.</p>
+<a class="link" href="https://www.hemnet.se/bostad/fritidsboende-4rum-loftahammar-vasterviks-kommun-bjursund-horsviken-6-21610849" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="807000" data-n="7" data-navn="Hallarum 205, Jämjö">
+<header><h2>Hallarum 205, Jämjö</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Hallarum, Jämjö, Blekinge · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>1.200.000 SEK (ca. 807.000 kr.)</dd>
+<dt>Bolig</dt><dd>86 m²</dd>
+<dt>Grund</dt><dd>1.588 m²</dd>
+<dt>Afstand til vand</dt><dd>gåafstand til badeplads (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>40 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>7</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">7 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 40 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints.</p>
+<a class="link" href="https://www.fastighetsbyran.com/sv/sverige/till-salu/blekinge-lan/karlskrona-kommun/objekt/?objektID=3519672" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="1140000" data-n="49" data-navn="Karl Viktors väg 1, Källvik">
+<header><h2>Karl Viktors väg 1, Källvik</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Källvik, Västervik · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>1.695.000 SEK (ca. 1.140.000 kr.)</dd>
+<dt>Bolig</dt><dd>55 m²</dd>
+<dt>Grund</dt><dd>1.389 m²</dd>
+<dt>Afstand til vand</dt><dd>&#x27;stenkast&#x27; til skærgården (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>58 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>49</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">49 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 58 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 1 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.fastighetsbyran.com/sv/sverige/till-salu/kalmar-(oland)-lan/vasterviks-kommun/objekt/?objektID=3485189" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="1073000" data-n="22" data-navn="Dalgången 16, Äskestock">
+<header><h2>Dalgången 16, Äskestock</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Äskestock, Västervik · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>1.595.000 SEK (ca. 1.073.000 kr.)</dd>
+<dt>Bolig</dt><dd>58 m²</dd>
+<dt>Grund</dt><dd>1.213 m²</dd>
+<dt>Afstand til vand</dt><dd>mellem to badepladser (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>53 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>22</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">22 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 53 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 1 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.fastighetsbyran.com/sv/sverige/till-salu/kalmar-(oland)-lan/vasterviks-kommun/objekt/?objektID=3451149" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="1110000" data-n="7" data-navn="Byasjövägen 22, Tving">
+<header><h2>Byasjövägen 22, Tving</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Tving, Karlskrona (ved sø) · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>1.650.000 SEK (ca. 1.110.000 kr.)</dd>
+<dt>Bolig</dt><dd>90 m²</dd>
+<dt>Grund</dt><dd>1.760 m²</dd>
+<dt>Afstand til vand</dt><dd>søudsigt (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>75 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>7</dd>
+<dt>Sikkerhed i vurdering</dt><dd>middel</dd>
+</dl>
+<p class="why">7 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 75 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints.</p>
+<a class="link" href="https://www.fastighetsbyran.com/sv/sverige/till-salu/blekinge-lan/karlskrona-kommun/objekt/?objektID=3583396" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="871000" data-n="18" data-navn="Garvarevägen 10, Västra Torup">
+<header><h2>Garvarevägen 10, Västra Torup</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Västra Torup, Hässleholm · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>1.295.000 SEK (ca. 871.000 kr.)</dd>
+<dt>Bolig</dt><dd>87 m²</dd>
+<dt>Grund</dt><dd>1.417 m²</dd>
+<dt>Afstand til vand</dt><dd>knap 1 km til sø (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>34 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>18</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">18 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 34 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap.</p>
+<a class="link" href="https://www.fastighetsbyran.com/sv/sverige/till-salu/skane-lan/hassleholms-kommun/objekt/?objektID=3349727" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="1207000" data-n="42" data-navn="Klackavägen 14, Ivö">
+<header><h2>Klackavägen 14, Ivö</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Ivö, Kristianstad (ved sø) · fundet 2026-10-23</p>
+<dl>
+<dt>Pris</dt><dd>1.795.000 SEK (ca. 1.207.000 kr.)</dd>
+<dt>Bolig</dt><dd>69 m²</dd>
+<dt>Grund</dt><dd>912 m²</dd>
+<dt>Afstand til vand</dt><dd>ikke oplyst</dd>
+<dt>Nærmeste anden bolig*</dt><dd>37 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>42</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">42 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 37 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 3 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.bjurfors.se/sv/tillsalu/skane/kristianstad/ivo/klackavagen-14/" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="1375000" data-n="107" data-navn="Lille Strandgaard 6, Hals">
+<header><h2>Lille Strandgaard 6, Hals</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Bisnap Strand, Hals · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>1.375.000 kr.</dd>
+<dt>Bolig</dt><dd>60 m²</dd>
+<dt>Grund</dt><dd>2.500 m²</dd>
+<dt>Afstand til vand</dt><dd>gåafstand til Bisnap Strand (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>34 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>107</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">107 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 34 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 3 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.edc.dk/alle-boliger/sommerhus/9370-hals/lille-strandgaard-6/93804366/" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="950000" data-n="126" data-navn="Kongelunden 8, Hals">
+<header><h2>Kongelunden 8, Hals</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Hals · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>950.000 kr.</dd>
+<dt>Bolig</dt><dd>62 m²</dd>
+<dt>Grund</dt><dd>2.168 m²</dd>
+<dt>Afstand til vand</dt><dd>ikke oplyst</dd>
+<dt>Nærmeste anden bolig*</dt><dd>37 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>126</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">126 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 37 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 1 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.edc.dk/alle-boliger/sommerhus/9370-hals/kongelunden-8/93804363/" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="1195000" data-n="90" data-navn="Marionsvej 24, Løgstør">
+<header><h2>Marionsvej 24, Løgstør</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Trend, Løgstør (Limfjorden) · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>1.195.000 kr.</dd>
+<dt>Bolig</dt><dd>98 m²</dd>
+<dt>Grund</dt><dd>1.262 m²</dd>
+<dt>Afstand til vand</dt><dd>ikke oplyst</dd>
+<dt>Nærmeste anden bolig*</dt><dd>43 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>90</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">90 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 43 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 2 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.edc.dk/alle-boliger/sommerhus/9670-loegstoer/marionsvej-24/96705753/" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="950000" data-n="114" data-navn="Ingolfvej 25, Eskebjerg">
+<header><h2>Ingolfvej 25, Eskebjerg</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Kaldred Ferieby, Eskebjerg · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>950.000 kr.</dd>
+<dt>Bolig</dt><dd>75 m²</dd>
+<dt>Grund</dt><dd>1.126 m²</dd>
+<dt>Afstand til vand</dt><dd>ikke oplyst</dd>
+<dt>Nærmeste anden bolig*</dt><dd>35 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>114</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">114 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 35 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 3 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.edc.dk/alle-boliger/sommerhus/4593-eskebjerg/ingolfvej-25/44506194/" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="1225000" data-n="68" data-navn="Horsfold 13, Hemmet">
+<header><h2>Horsfold 13, Hemmet</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Bork Havn, Hemmet (Ringkøbing Fjord) · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>1.225.000 kr.</dd>
+<dt>Bolig</dt><dd>82 m²</dd>
+<dt>Grund</dt><dd>736 m²</dd>
+<dt>Afstand til vand</dt><dd>kort afstand til Ringkøbing Fjord (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>39 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>68</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">68 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 39 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 2 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.edc.dk/alle-boliger/sommerhus/6893-hemmet/horsfold-13/68307207/" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="725000" data-n="50" data-navn="Solsortevej 2, Hurup Thy">
+<header><h2>Solsortevej 2, Hurup Thy</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Draget/Ydby Drag, Hurup Thy · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>725.000 kr.</dd>
+<dt>Bolig</dt><dd>50 m²</dd>
+<dt>Grund</dt><dd>1.771 m²</dd>
+<dt>Afstand til vand</dt><dd>ca. 400 m til badestrand (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>35 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>50</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">50 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 35 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap.</p>
+<a class="link" href="https://www.edc.dk/alle-boliger/sommerhus/7760-hurup-thy/solsortevej-2/77606846/" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="1185000" data-n="93" data-navn="Stubbegaardsparken 159, Lolland">
+<header><h2>Stubbegaardsparken 159, Lolland</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Stubbegårdsparken, Nakskov (Lolland) · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>1.185.000 kr.</dd>
+<dt>Bolig</dt><dd>74 m²</dd>
+<dt>Grund</dt><dd>908 m²</dd>
+<dt>Afstand til vand</dt><dd>kort afstand til badestrande (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>31 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>93</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">93 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 31 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 2 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://danbolig.dk/bolig/lolland/4900/fritidsbolig/1960001250-196/" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Danmark" data-pris="495000" data-n="51" data-navn="Odde Naturpark 50, Helberskov">
+<header><h2>Odde Naturpark 50, Helberskov</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Danmark · Helberskov ved Kattegat, Hadsund · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>495.000 kr.</dd>
+<dt>Bolig</dt><dd>54 m²</dd>
+<dt>Grund</dt><dd>2.504 m²</dd>
+<dt>Afstand til vand</dt><dd>kort afstand til vandet (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>45 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>51</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">51 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 45 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 1 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://johnfrandsen.dk/sag/OF6121/odde-naturpark-50-helberskov-9560-hadsund/" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="1275000" data-n="61" data-navn="Kastlösa 122, Mörbylånga">
+<header><h2>Kastlösa 122, Mörbylånga</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Kastlösa, Öland · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>1.895.000 SEK (ca. 1.275.000 kr.)</dd>
+<dt>Bolig</dt><dd>45 m²</dd>
+<dt>Grund</dt><dd>675 m²</dd>
+<dt>Afstand til vand</dt><dd>ikke oplyst</dd>
+<dt>Nærmeste anden bolig*</dt><dd>30 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>61</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">61 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 30 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 6 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.</p>
+<a class="link" href="https://www.hemnet.se/bostad/fritidsboende-2rum-kastlosa-morbylanga-kommun-kastlosa-122-21792468" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="1207000" data-n="21" data-navn="Lärkvägen 33, Lönhult (Tomelilla)">
+<header><h2>Lärkvägen 33, Lönhult (Tomelilla)</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Lönhults sommarby, Tomelilla · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>1.795.000 SEK (ca. 1.207.000 kr.)</dd>
+<dt>Bolig</dt><dd>57 m²</dd>
+<dt>Grund</dt><dd>2.343 m²</dd>
+<dt>Afstand til vand</dt><dd>ikke oplyst</dd>
+<dt>Nærmeste anden bolig*</dt><dd>38 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>21</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">21 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 38 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints.</p>
+<a class="link" href="https://www.hemnet.se/bostad/fritidsboende-2,5rum-lonhult-tomelilla-kommun-larkvagen-33-22054690" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="737000" data-n="59" data-navn="Vadholmsvägen 1302, Pukavik">
+<header><h2>Vadholmsvägen 1302, Pukavik</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Pukavik, Sölvesborg · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>1.095.000 SEK (ca. 737.000 kr.)</dd>
+<dt>Bolig</dt><dd>45 m²</dd>
+<dt>Grund</dt><dd>876 m²</dd>
+<dt>Afstand til vand</dt><dd>havet nær (mæglerens oplysning)</dd>
+<dt>Nærmeste anden bolig*</dt><dd>33 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>59</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">59 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 33 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 3 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus. Grunden er arrende (lejet) ifølge Alembi og Dinbostad, så den opfylder ikke kravet om ejet grund.</p>
+<a class="link" href="https://www.hemnet.se/bostad/fritidsboende-3rum-pukavik-solvesborgs-kommun-vadholmsvagen-1302-22052555" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="1244000" data-n="9" data-navn="Trussarödsvägen 59, Lillehem">
+<header><h2>Trussarödsvägen 59, Lillehem</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Lillehem, Degeberga (Kristianstad) · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>1.850.000 SEK (ca. 1.244.000 kr.)</dd>
+<dt>Bolig</dt><dd>70 m²</dd>
+<dt>Grund</dt><dd>2.130 m²</dd>
+<dt>Afstand til vand</dt><dd>ikke oplyst</dd>
+<dt>Nærmeste anden bolig*</dt><dd>38 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>9</dd>
+<dt>Sikkerhed i vurdering</dt><dd>middel</dd>
+</dl>
+<p class="why">9 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 38 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints.</p>
+<a class="link" href="https://www.hemnet.se/bostad/fritidsboende-3rum-lillehem-kristianstads-kommun-trusserodsvagen-59-22051505" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="942000" data-n="12" data-navn="Björnstigen 2, Dalshult (Perstorp)">
+<header><h2>Björnstigen 2, Dalshult (Perstorp)</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Dalshult, Perstorp · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>1.400.000 SEK (ca. 942.000 kr.)</dd>
+<dt>Bolig</dt><dd>52 m²</dd>
+<dt>Grund</dt><dd>1.210 m²</dd>
+<dt>Afstand til vand</dt><dd>ikke oplyst</dd>
+<dt>Nærmeste anden bolig*</dt><dd>36 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>12</dd>
+<dt>Sikkerhed i vurdering</dt><dd>høj</dd>
+</dl>
+<p class="why">12 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 36 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap.</p>
+<a class="link" href="https://www.hemnet.se/bostad/villa-3rum-dalshult-perstorps-kommun-dalshult-bjornstigen-2-21913706" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="1207000" data-n="4" data-navn="Lingilt 195, Halmstad">
+<header><h2>Lingilt 195, Halmstad</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Lingilt, Simlångsdalen (Halmstad) · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>1.795.000 SEK (ca. 1.207.000 kr.)</dd>
+<dt>Bolig</dt><dd>69 m²</dd>
+<dt>Grund</dt><dd>2.096 m²</dd>
+<dt>Afstand til vand</dt><dd>ikke oplyst</dd>
+<dt>Nærmeste anden bolig*</dt><dd>67 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>4</dd>
+<dt>Sikkerhed i vurdering</dt><dd>middel</dd>
+</dl>
+<p class="why">4 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 67 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 1 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus. Isoleret bolig &#x27;Säterstugan&#x27; ligger inden for ca. 300 m ifølge OSM.</p>
+<a class="link" href="https://www.hemnet.se/bostad/villa-3rum-halmstads-kommun-lingilt-195-21797447" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article><article class="card no" data-status="opfylder ikke" data-land="Sverige" data-pris="1207000" data-n="9" data-navn="Sibbalt 4, Laholm">
+<header><h2>Sibbalt 4, Laholm</h2><span class="badge no">200 m-krav: opfylder ikke</span></header>
+<p class="meta">Sverige · Sibbalt, Knäred (Laholm) · fundet 2026-10-24</p>
+<dl>
+<dt>Pris</dt><dd>1.795.000 SEK (ca. 1.207.000 kr.)</dd>
+<dt>Bolig</dt><dd>125 m²</dd>
+<dt>Grund</dt><dd>3.470 m²</dd>
+<dt>Afstand til vand</dt><dd>ikke oplyst</dd>
+<dt>Nærmeste anden bolig*</dt><dd>76 m</dd>
+<dt>Mulige boliger inden for 200 m*</dt><dd>9</dd>
+<dt>Sikkerhed i vurdering</dt><dd>middel</dd>
+</dl>
+<p class="why">9 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 76 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 1 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus. Ligger i landsbyen Sibbalt ifølge OSM.</p>
+<a class="link" href="https://www.hemnet.se/bostad/villa-6rum-laholms-kommun-sibbalt-4-21912261" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
+</article>
+</section>
+<footer>Data sidst opdateret: 24.10.2026 kl. 11:26 (dansk tid).</footer>
+</main><script>
+const g=document.getElementById('g'),fs=document.getElementById('fs'),fl=document.getElementById('fl'),so=document.getElementById('so'),cnt=document.getElementById('cnt');
+function upd(){const c=[...g.children];let v=0;c.forEach(x=>{const s=(!fs.value||x.dataset.status===fs.value)&&(!fl.value||x.dataset.land===fl.value);x.hidden=!s;if(s)v++});
+const k=so.value;c.sort((a,b)=>k==='navn'?a.dataset.navn.localeCompare(b.dataset.navn,'da'):(+a.dataset[k]- +b.dataset[k])).forEach(x=>g.appendChild(x));cnt.textContent=v+' vist';}
+[fs,fl,so].forEach(x=>x.addEventListener('change',upd));upd();
+</script></body></html>
