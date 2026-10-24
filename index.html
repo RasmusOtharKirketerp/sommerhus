@@ -8,6 +8,7 @@ main{max-width:1100px;margin:0 auto;padding:1rem}h1{margin:.5rem 0}
 .controls{display:flex;flex-wrap:wrap;gap:.75rem;margin:1rem 0;align-items:end}
 label{display:flex;flex-direction:column;font-size:.85rem;color:var(--muted)}select{font-size:1rem;padding:.35rem;border-radius:6px;border:1px solid #ccd}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:1rem}
+[hidden]{display:none!important}
 .card{background:var(--card);border-radius:10px;padding:1rem;box-shadow:0 1px 3px rgba(0,0,0,.08);border-top:5px solid var(--maybe);display:flex;flex-direction:column}
 .card.ok{border-top-color:var(--ok)}.card.no{border-top-color:var(--no)}
 .card h2{font-size:1.1rem;margin:0 0 .3rem}.meta{color:var(--muted);font-size:.9rem;margin:.2rem 0 .6rem}
@@ -447,7 +448,7 @@ footer{color:var(--muted);font-size:.85rem;margin:2rem 0}
 <a class="link" href="https://www.hemnet.se/bostad/villa-6rum-laholms-kommun-sibbalt-4-21912261" target="_blank" rel="noopener noreferrer">Se annoncen ↗</a>
 </article>
 </section>
-<footer>Data sidst opdateret: 24.10.2026 kl. 11:26 (dansk tid).</footer>
+<footer>Data sidst opdateret: 24.10.2026 kl. 12:15 (dansk tid).</footer>
 </main><script>
 const g=document.getElementById('g'),fs=document.getElementById('fs'),fl=document.getElementById('fl'),so=document.getElementById('so'),cnt=document.getElementById('cnt');
 function upd(){const c=[...g.children];let v=0;c.forEach(x=>{const s=(!fs.value||x.dataset.status===fs.value)&&(!fl.value||x.dataset.land===fl.value);x.hidden=!s;if(s)v++});
