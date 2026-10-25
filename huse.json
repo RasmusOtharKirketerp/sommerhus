@@ -670,7 +670,7 @@
    "bygninger_under_30m": 0,
    "status_200m": "opfylder",
    "sikkerhed": "middel",
-   "begrundelse": "Kortmåling: ingen andre bygninger på mindst 25 m² inden for 200 m (OpenStreetMap 24.10.2026, bekræftet med Overture 2026-10-21); eneste adressepunkt inden for 250 m er husets egen adresse. Annoncen: stråtækt fritidsbolig, brændeovne, udsigt. Ikke nævnt i annoncen: terrasse, stand/fugt. Fritidsbolig i landzone, ikke i et sommerhusområde – om det tæller som 'sommerhusgrund' skal afklares.",
+   "begrundelse": "Kortmåling: ingen andre bygninger på mindst 25 m² inden for 200 m (OpenStreetMap 24.10.2026, bekræftet med Overture 2026-10-21); eneste adressepunkt inden for 250 m er husets egen adresse. Annoncen: stråtækt fritidsbolig, brændeovne, udsigt. Ikke nævnt i annoncen: terrasse, stand/fugt. Fritidsbolig i landzone; landzone er godkendt som grundtype (25.10.2026).",
    "datakilde": "OpenStreetMap (Geofabrik-udtræk 24.10.2026) + Overture 2026-10-21",
    "fundet": "2026-10-25"
   },
