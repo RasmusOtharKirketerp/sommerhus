@@ -21,7 +21,8 @@
    "sikkerhed": "høj",
    "begrundelse": "98 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 34 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 3 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/DK1.jpg"
   },
   {
    "id": "DK2",
@@ -42,7 +43,8 @@
    "sikkerhed": "høj",
    "begrundelse": "133 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 33 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 5 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/DK2.jpg"
   },
   {
    "id": "DK3",
@@ -63,7 +65,8 @@
    "sikkerhed": "høj",
    "begrundelse": "104 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 30 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 8 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/DK3.jpg"
   },
   {
    "id": "DK4",
@@ -84,7 +87,8 @@
    "sikkerhed": "høj",
    "begrundelse": "124 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 43 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 4 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/DK4.jpg"
   },
   {
    "id": "DK5",
@@ -105,7 +109,8 @@
    "sikkerhed": "høj",
    "begrundelse": "122 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 32 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 4 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/DK5.jpg"
   },
   {
    "id": "DK6",
@@ -126,7 +131,8 @@
    "sikkerhed": "høj",
    "begrundelse": "189 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 36 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 4 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/DK6.jpg"
   },
   {
    "id": "DK7",
@@ -147,7 +153,8 @@
    "sikkerhed": "høj",
    "begrundelse": "75 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 31 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 4 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/DK7.jpg"
   },
   {
    "id": "DK8",
@@ -168,7 +175,8 @@
    "sikkerhed": "høj",
    "begrundelse": "78 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 31 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 5 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/DK8.jpg"
   },
   {
    "id": "SE1",
@@ -189,7 +197,8 @@
    "sikkerhed": "middel",
    "begrundelse": "9 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 111 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Campingplads (Caravan Club Bjursund) inden for 200 m ifølge OSM.",
    "datakilde": "Microsoft Global ML Building Footprints",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/SE1.jpg"
   },
   {
    "id": "SE2",
@@ -210,7 +219,8 @@
    "sikkerhed": "høj",
    "begrundelse": "7 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 40 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints.",
    "datakilde": "Microsoft Global ML Building Footprints",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/SE2.jpg"
   },
   {
    "id": "SE3",
@@ -231,7 +241,9 @@
    "sikkerhed": "høj",
    "begrundelse": "49 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 58 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 1 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "Microsoft Global ML Building Footprints",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": null,
+   "billede_mangler_grund": "Annoncen står som solgt; mægleren viser kun et standardbillede (ikke huset)."
   },
   {
    "id": "SE4",
@@ -252,7 +264,8 @@
    "sikkerhed": "høj",
    "begrundelse": "22 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 53 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 1 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "Microsoft Global ML Building Footprints",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/SE4.jpg"
   },
   {
    "id": "SE5",
@@ -273,7 +286,8 @@
    "sikkerhed": "middel",
    "begrundelse": "7 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 75 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints.",
    "datakilde": "Microsoft Global ML Building Footprints",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/SE5.jpg"
   },
   {
    "id": "SE6",
@@ -294,7 +308,8 @@
    "sikkerhed": "høj",
    "begrundelse": "18 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 34 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/SE6.jpg"
   },
   {
    "id": "SE7",
@@ -315,7 +330,8 @@
    "sikkerhed": "høj",
    "begrundelse": "42 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 37 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 3 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "Microsoft Global ML Building Footprints",
-   "fundet": "2026-10-23"
+   "fundet": "2026-10-23",
+   "billede": "billeder/SE7.jpg"
   },
   {
    "id": "R1",
@@ -336,7 +352,8 @@
    "sikkerhed": "høj",
    "begrundelse": "107 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 34 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 3 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R1.jpg"
   },
   {
    "id": "R2",
@@ -357,7 +374,8 @@
    "sikkerhed": "høj",
    "begrundelse": "126 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 37 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 1 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R2.jpg"
   },
   {
    "id": "R3",
@@ -378,7 +396,8 @@
    "sikkerhed": "høj",
    "begrundelse": "90 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 43 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 2 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R3.jpg"
   },
   {
    "id": "R4",
@@ -399,7 +418,8 @@
    "sikkerhed": "høj",
    "begrundelse": "114 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 35 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 3 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R4.jpg"
   },
   {
    "id": "R5",
@@ -420,7 +440,8 @@
    "sikkerhed": "høj",
    "begrundelse": "68 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 39 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 2 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R5.jpg"
   },
   {
    "id": "R6",
@@ -441,7 +462,8 @@
    "sikkerhed": "høj",
    "begrundelse": "50 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 35 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R6.jpg"
   },
   {
    "id": "R7",
@@ -462,7 +484,8 @@
    "sikkerhed": "høj",
    "begrundelse": "93 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 31 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 2 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus. Gentjekket 24.10.2026: ligger i en sommerhusudstykning; en anden bungalow på ca. 109 m² ligger ca. 12 m fra husets punkt (sandsynligvis nabo, ikke anneks).",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R7.jpg"
   },
   {
    "id": "R8",
@@ -483,7 +506,8 @@
    "sikkerhed": "høj",
    "begrundelse": "51 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 45 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap. Desuden 1 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R8.jpg"
   },
   {
    "id": "R9",
@@ -504,7 +528,8 @@
    "sikkerhed": "høj",
    "begrundelse": "61 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 30 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 6 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus.",
    "datakilde": "Microsoft Global ML Building Footprints",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R9.jpg"
   },
   {
    "id": "R10",
@@ -525,7 +550,8 @@
    "sikkerhed": "høj",
    "begrundelse": "21 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 38 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints.",
    "datakilde": "Microsoft Global ML Building Footprints",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R10.jpg"
   },
   {
    "id": "R11",
@@ -546,7 +572,8 @@
    "sikkerhed": "høj",
    "begrundelse": "59 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 33 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 3 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus. Grunden er arrende (lejet) ifølge Alembi og Dinbostad, så den opfylder ikke kravet om ejet grund.",
    "datakilde": "Microsoft Global ML Building Footprints",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R11.jpg"
   },
   {
    "id": "R12",
@@ -567,7 +594,8 @@
    "sikkerhed": "middel",
    "begrundelse": "9 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 38 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints.",
    "datakilde": "Microsoft Global ML Building Footprints",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R12.jpg"
   },
   {
    "id": "R13",
@@ -588,7 +616,8 @@
    "sikkerhed": "høj",
    "begrundelse": "12 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 36 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: OpenStreetMap.",
    "datakilde": "OpenStreetMap",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R13.jpg"
   },
   {
    "id": "R14",
@@ -609,7 +638,8 @@
    "sikkerhed": "middel",
    "begrundelse": "4 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 67 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 1 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus. Isoleret bolig 'Säterstugan' ligger inden for ca. 300 m ifølge OSM.",
    "datakilde": "Microsoft Global ML Building Footprints",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R14.jpg"
   },
   {
    "id": "R15",
@@ -630,7 +660,8 @@
    "sikkerhed": "middel",
    "begrundelse": "9 mulige boliger (bygninger på mindst 25 m²) inden for 200 m; nærmeste ca. 76 m væk, regnet uden bygninger tættere end 30 m, som kan være husets egne. Kilde: Microsoft Global ML Building Footprints. Desuden 1 bygning(er) inden for 30 m, som kan være husets eget anneks/udhus. Ligger i landsbyen Sibbalt ifølge OSM.",
    "datakilde": "Microsoft Global ML Building Footprints",
-   "fundet": "2026-10-24"
+   "fundet": "2026-10-24",
+   "billede": "billeder/R15.jpg"
   },
   {
    "id": "N1",
@@ -651,7 +682,8 @@
    "sikkerhed": "lav",
    "begrundelse": "Kortmåling: ingen andre bygninger på mindst 25 m² inden for 200 m (Microsoft Global ML Building Footprints via Overture 2026-10-21; kun husets egen bygning ca. 14 m og en bygning på ca. 20 m² ca. 90 m væk). Men kortdata er bevisligt ufuldstændige her: husets egen udbygning på ca. 135 m² mangler, og OpenStreetMap har ingen bygninger i området. Mægleren skriver 'längst in på vägen' og 'skogen som närmaste granne'. Øvrige krav ifølge annoncen: äganderätt, braskamin og vedspis, terrasse (bygget 2018), renoveret (badeværelse 2022). Ikke oplyst: fugt, udsigt. Bemærk: ældre trekammerbrønd (afløb), ikke hus ved kyst.",
    "datakilde": "Microsoft Global ML Building Footprints (via Overture 2026-10-21) og OpenStreetMap (24.10.2026)",
-   "fundet": "2026-10-25"
+   "fundet": "2026-10-25",
+   "billede": "billeder/N1.jpg"
   },
   {
    "id": "N2",
@@ -672,7 +704,8 @@
    "sikkerhed": "middel",
    "begrundelse": "Kortmåling: ingen andre bygninger på mindst 25 m² inden for 200 m (OpenStreetMap 24.10.2026, bekræftet med Overture 2026-10-21); eneste adressepunkt inden for 250 m er husets egen adresse. Annoncen: stråtækt fritidsbolig, brændeovne, udsigt. Ikke nævnt i annoncen: terrasse, stand/fugt. Fritidsbolig i landzone; landzone er godkendt som grundtype (25.10.2026).",
    "datakilde": "OpenStreetMap (Geofabrik-udtræk 24.10.2026) + Overture 2026-10-21",
-   "fundet": "2026-10-25"
+   "fundet": "2026-10-25",
+   "billede": "billeder/N2.jpg"
   },
   {
    "id": "N3",
@@ -693,7 +726,8 @@
    "sikkerhed": "middel",
    "begrundelse": "Kortmåling: ingen andre bygninger på mindst 25 m² inden for 200 m; nærmeste ca. 234 m (OpenStreetMap 24.10.2026/Overture). Nærmeste andet adressepunkt ca. 242 m. Fejler sandsynligvis på stand: mægleren skriver 'trænger til lidt kærlighed og færdiggørelse', og 1. sal er ikke udnyttet. Terrasse ikke nævnt. Gammel skole med fritidsstatus i landzone.",
    "datakilde": "OpenStreetMap (Geofabrik-udtræk 24.10.2026) + Overture 2026-10-21",
-   "fundet": "2026-10-25"
+   "fundet": "2026-10-25",
+   "billede": "billeder/N3.jpg"
   },
   {
    "id": "N4",
@@ -714,7 +748,8 @@
    "sikkerhed": "middel",
    "begrundelse": "Kortmåling: ingen andre bygninger på mindst 25 m² 30–200 m væk; én bygning på ca. 44 m² ca. 14 m væk (formentlig husets eget udhus/stald). Kun husets egen adresse inden for 250 m. Fejler: afstand til vand er 3–4 km, beliggenhed er mark (ikke kyst/skov/fjord), terrasse ikke nævnt.",
    "datakilde": "OpenStreetMap (Geofabrik-udtræk 24.10.2026) + Overture 2026-10-21",
-   "fundet": "2026-10-25"
+   "fundet": "2026-10-25",
+   "billede": "billeder/N4.jpg"
   },
   {
    "id": "N5",
@@ -735,7 +770,8 @@
    "sikkerhed": "middel",
    "begrundelse": "Kortmåling: ingen andre bygninger på mindst 25 m² inden for 200 m (OpenStreetMap 24.10.2026/Overture). Fejler på 'tæt på stor vej': primærrute 11/29 (Aalborgvej, 90 km/t) ca. 150 m fra huset ifølge OpenStreetMap. Annoncen: stråtækt sommerhus, brændeovn, terrasser, anneks 18 m².",
    "datakilde": "OpenStreetMap (Geofabrik-udtræk 24.10.2026) + Overture 2026-10-21",
-   "fundet": "2026-10-25"
+   "fundet": "2026-10-25",
+   "billede": "billeder/N5.jpg"
   },
   {
    "id": "N6",
@@ -756,7 +792,8 @@
    "sikkerhed": "lav",
    "begrundelse": "Kortmåling: én bygning på ca. 98 m² ca. 123 m væk (OpenStreetMap); husets egen bygning findes ikke i kortdata, så det kan være huset selv (forkert koordinat) eller en nabo. Microsoft-data har intet her. Annoncen: äganderätt, tre braskaminer, overdækket terrasse. Bemærk: tidligere kyllingefarm i gasbeton; vådrumsmåtten i badeværelset 'har börjat släppa' (fugtrisiko).",
    "datakilde": "OpenStreetMap (24.10.2026); Microsoft/Overture uden dækning",
-   "fundet": "2026-10-25"
+   "fundet": "2026-10-25",
+   "billede": "billeder/N6.jpg"
   },
   {
    "id": "N7",
@@ -777,7 +814,8 @@
    "sikkerhed": "lav",
    "begrundelse": "Kortmåling: nærmeste bygning ca. 256 m væk (Microsoft via Overture), men husets egne bygninger findes ikke i kortdata, så dækningen er ufuldstændig. Annoncen: äganderätt, altan. Fejler sandsynligvis: brændeovn/kakelugn nævnes ikke i annoncen.",
    "datakilde": "Microsoft Global ML Building Footprints (via Overture 2026-10-21); OpenStreetMap uden bygninger",
-   "fundet": "2026-10-25"
+   "fundet": "2026-10-25",
+   "billede": "billeder/N7.jpg"
   },
   {
    "id": "N8",
@@ -798,7 +836,8 @@
    "sikkerhed": "lav",
    "begrundelse": "Kortmåling: nærmeste bygning på mindst 25 m² ca. 242 m væk (Microsoft via Overture), men husets egen bygning mangler i kortdata. Annoncen: äganderätt, vedspis og kronspis, altan, renoveret siden 2024. Fejler på afstand til vand (over 3 km til kyst/sø).",
    "datakilde": "Microsoft Global ML Building Footprints (via Overture 2026-10-21)",
-   "fundet": "2026-10-25"
+   "fundet": "2026-10-25",
+   "billede": "billeder/N8.jpg"
   },
   {
    "id": "N9",
@@ -819,7 +858,8 @@
    "sikkerhed": "lav",
    "begrundelse": "Kortmåling: en bygning på ca. 28 m² ca. 109 m væk og næste på mindst 25 m² ca. 229 m væk (Microsoft via Overture). Bygningen ved 109 m kan være gårdens egen udbygning (grunden er 9.115 m²). Annoncen nævner hverken brændeovn/kakelugn eller terrasse/altan.",
    "datakilde": "Microsoft Global ML Building Footprints (via Overture 2026-10-21)",
-   "fundet": "2026-10-25"
+   "fundet": "2026-10-25",
+   "billede": "billeder/N9.jpg"
   }
  ]
 }
