@@ -10,7 +10,7 @@ colors:{sand:{50:'#fbf8f1',100:'#f5efe1',200:'#ebe0c8',300:'#dccaa3'},fjord:{500
 <style>
 [hidden]{display:none!important}
 .ov{opacity:0;visibility:hidden;transition:opacity .2s ease,visibility .2s}
-@media (hover:hover){.card:hover .ov{opacity:1;visibility:visible}}
+.card:hover .ov{opacity:1;visibility:visible}
 .card:focus-within .ov,.card.open .ov{opacity:1;visibility:visible}
 .card:focus-within{outline:3px solid #2f7fa8;outline-offset:2px}
 .ov::-webkit-scrollbar{width:6px}.ov::-webkit-scrollbar-thumb{background:rgba(255,255,255,.3);border-radius:3px}
@@ -1068,7 +1068,8 @@ function upd(){const c=[...g.children];let v=0;c.forEach(x=>{const s=(!fs.value|
 const k=so.value;c.sort((a,b)=>k==='navn'?a.dataset.navn.localeCompare(b.dataset.navn,'da'):(+a.dataset[k]- +b.dataset[k])).forEach(x=>g.appendChild(x));cnt.textContent=v+' vist';tom.hidden=v>0;}
 [fs,fl,so].forEach(x=>x.addEventListener('change',upd));upd();
 // Touch: 1. tryk viser detaljer, knappen "Se annonce" åbner annoncen. Mus: klik på billedet åbner annoncen.
-const touch=()=>matchMedia('(hover: none)').matches;
+let lastPtr='mouse';addEventListener('pointerdown',e=>{lastPtr=e.pointerType},true);
+const touch=()=>lastPtr==='touch'||lastPtr==='pen';
 document.querySelectorAll('#g .card').forEach(card=>{
  const media=card.querySelector('.media'),ov=card.querySelector('.ov');
  media.addEventListener('click',ev=>{if(touch()&&!card.classList.contains('open')){ev.preventDefault();document.querySelectorAll('.card.open').forEach(c=>c.classList.remove('open'));card.classList.add('open');}});
