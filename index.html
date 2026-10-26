@@ -12,6 +12,7 @@ colors:{sand:{50:'#fbf8f1',100:'#f5efe1',200:'#ebe0c8',300:'#dccaa3'},fjord:{500
 .ov{opacity:0;visibility:hidden;transition:opacity .2s ease,visibility .2s}
 .card:hover .ov{opacity:1;visibility:visible}
 .card:focus-within .ov,.card.open .ov{opacity:1;visibility:visible}
+@media (max-width:639px){.card.open{grid-column:span 2;aspect-ratio:auto;min-height:75vw;max-height:80vh}}
 .card:focus-within{outline:3px solid #2f7fa8;outline-offset:2px}
 .ov::-webkit-scrollbar{width:6px}.ov::-webkit-scrollbar-thumb{background:rgba(255,255,255,.3);border-radius:3px}
 </style>
@@ -1072,7 +1073,7 @@ let lastPtr='mouse';addEventListener('pointerdown',e=>{lastPtr=e.pointerType},tr
 const touch=()=>lastPtr==='touch'||lastPtr==='pen';
 document.querySelectorAll('#g .card').forEach(card=>{
  const media=card.querySelector('.media'),ov=card.querySelector('.ov');
- media.addEventListener('click',ev=>{if(touch()&&!card.classList.contains('open')){ev.preventDefault();document.querySelectorAll('.card.open').forEach(c=>c.classList.remove('open'));card.classList.add('open');}});
+ media.addEventListener('click',ev=>{if(touch()&&!card.classList.contains('open')){ev.preventDefault();document.querySelectorAll('.card.open').forEach(c=>c.classList.remove('open'));card.classList.add('open');card.scrollIntoView({block:'nearest',behavior:'smooth'});}});
  ov.addEventListener('click',ev=>{if(ev.target.closest('a'))return;if(touch()){card.classList.remove('open');media.blur();}else{window.open(media.href,'_blank','noopener');}});
 });
 document.addEventListener('click',ev=>{if(!ev.target.closest('.card'))document.querySelectorAll('.card.open').forEach(c=>c.classList.remove('open'));});
