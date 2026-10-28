@@ -1,6 +1,6 @@
 {
- "opdateret": "2026-10-25",
- "kurs_sek_dkk": 0.6715,
+ "opdateret": "2026-10-28",
+ "kurs_sek_dkk": 0.6746,
  "huse": [
   {
    "id": "DK1",
@@ -956,6 +956,31 @@
    "billede": "billeder/N9.jpg",
    "koeretid_min": 155,
    "koeretid_km": 202,
+   "koeretid_note": "via Øresundsbroen"
+  },
+  {
+   "id": "N10",
+   "navn": "Mistekärr Janstorp, Loftahammar (Västervik)",
+   "land": "Sverige",
+   "link": "https://www.hemnet.se/bostad/fritidsboende-4rum-loftahammar-vasterviks-kommun-mistekarr-janstorp-22059270",
+   "pris_dkk": 1113000,
+   "pris_dkk_omregnet": true,
+   "pris_sek": 1650000,
+   "bolig_m2": 70,
+   "grund_m2": 964,
+   "beliggenhed": "Skovkant ved åben mark, Småland-kysten (Kalmar län), nord for Loftahammar",
+   "afstand_vand": "Ca. 640 m til kystlinjen (egen måling på OpenStreetMap); Hemnet: ca. 600 m til kyst",
+   "naermeste_anden_bolig_m": null,
+   "boliger_inden_200m": 0,
+   "bygninger_under_30m": 1,
+   "status_200m": "opfylder",
+   "sikkerhed": "middel",
+   "begrundelse": "Kortmåling: ingen andre bygninger inden for 200 m; kun én bygning ca. 12 m væk (husets egen, Microsoft-bygningsdata via Overture 2026-10-21). OpenStreetMap har ingen bygninger her. Satellitfoto (Esri) viser kun husets egne bygninger inden for 200 m. Annoncen: fritidshus, äganderätt, eldstad i stuen, flere uteplatser, udsigt over marker og natur, gæstehus og vedfyret sauna. Ikke nævnt: fugt/stand (bygget 1940), egentlig terrasse. Lille amtsvej (Flatvarpsvägen) passerer ca. 20 m fra huset.",
+   "datakilde": "Microsoft Global ML Building Footprints (via Overture 2026-10-21) + OpenStreetMap + Esri-satellitfoto",
+   "fundet": "2026-10-28",
+   "billede": "billeder/N10.jpg",
+   "koeretid_min": 416,
+   "koeretid_km": 524,
    "koeretid_note": "via Øresundsbroen"
   }
  ]
