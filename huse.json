@@ -1,6 +1,6 @@
 {
- "opdateret": "2026-10-29",
- "kurs_sek_dkk": 0.676,
+ "opdateret": "2026-10-30",
+ "kurs_sek_dkk": 0.6794,
  "huse": [
   {
    "id": "DK1",
@@ -1031,6 +1031,31 @@
    "billede": "billeder/N12.jpg",
    "koeretid_min": 152,
    "koeretid_km": 173,
+   "koeretid_note": "via Øresundsbroen"
+  },
+  {
+   "id": "N13",
+   "navn": "Karl Gustav Backa 4, Ullared (Varbergs kommun)",
+   "land": "Sverige",
+   "link": "https://www.hemnet.se/bostad/villa-3rum-ullared-varbergs-kommun-karl-gustav-backa-4-21753376",
+   "pris_dkk": 1172000,
+   "pris_dkk_omregnet": true,
+   "pris_sek": 1725000,
+   "bolig_m2": 83,
+   "grund_m2": 1462,
+   "beliggenhed": "Skov og åbne marker i indre Halland, ved en grusvej sydøst for Ullared",
+   "afstand_vand": "Ca. 380 m til Lönesjön (egen måling på OpenStreetMap, omtrentlig); damm på grunden; mægleren nævner badesøer i nærområdet",
+   "naermeste_anden_bolig_m": 217,
+   "boliger_inden_200m": 0,
+   "bygninger_under_30m": 0,
+   "status_200m": "opfylder",
+   "sikkerhed": "middel",
+   "begrundelse": "Kortmåling: ingen andre bygninger på mindst 25 m² inden for 200 m. Nærmeste større bygning ca. 217 m mod nord (128 m², Microsoft-bygningsdata via Overture 2026-10-21); én lille bygning (ca. 13 m²) ca. 155 m mod sydvest. OpenStreetMap har ingen bygninger her. Satellitfoto (Esri) viser kun husets egne bygninger plus et par små skure/hytter under træer ca. 150 m mod sydvest – ukendt om de er beboelse. Ingen stor vej inden for 800 m. Annoncen: villa (83 m² + 50 m² biareal, bygget 1949), äganderätt, vardagsrum med kamin, altan og veranda med 'utsikt över naturen', udhuse, damm på grunden, solceller, ny trekammerbrønd med infiltration. Ikke oplyst: fugt eller stand af kælder.",
+   "datakilde": "Microsoft Global ML Building Footprints (via Overture 2026-10-21) + OpenStreetMap (udtræk 25.10.2026) + Esri-satellitfoto",
+   "fundet": "2026-10-30",
+   "billede": "billeder/N13.jpg",
+   "koeretid_min": 223,
+   "koeretid_km": 295,
    "koeretid_note": "via Øresundsbroen"
   }
  ]
