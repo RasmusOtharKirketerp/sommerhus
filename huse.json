@@ -1,6 +1,6 @@
 {
- "opdateret": "2026-10-30",
- "kurs_sek_dkk": 0.6794,
+ "opdateret": "2026-11-02",
+ "kurs_sek_dkk": 0.6808,
  "huse": [
   {
    "id": "DK1",
@@ -1057,6 +1057,31 @@
    "koeretid_min": 223,
    "koeretid_km": 295,
    "koeretid_note": "via Øresundsbroen"
+  },
+  {
+   "id": "N14",
+   "navn": "Ödbyholmsvägen 20, Påryd (Kalmar kommun)",
+   "land": "Sverige",
+   "link": "https://www.hemnet.se/bostad/fritidsboende-3rum-paryd-kalmar-kommun-odbyholmsvagen-20-21780823",
+   "pris_dkk": 1021000,
+   "pris_dkk_omregnet": true,
+   "pris_sek": 1500000,
+   "bolig_m2": 70,
+   "grund_m2": 11870,
+   "beliggenhed": "Torp alene i skoven ved en grusvej, ca. 15 min. fra Påryd i Småland (ca. 30 min. til Kalmar)",
+   "afstand_vand": "Ca. 1,3 km til en lille sø og ca. 1,75 km til Ugglebosjön (egen måling på Overture-vanddata; Hemnet: 'ungefär 1,8 km till vatten (Ugglebosjön)'). Indlandssø, ikke kyst.",
+   "naermeste_anden_bolig_m": 654,
+   "boliger_inden_200m": 0,
+   "bygninger_under_30m": 2,
+   "status_200m": "opfylder",
+   "sikkerhed": "middel",
+   "begrundelse": "Kortmåling: ingen andre bygninger på mindst 25 m² inden for 200 m. Kun husets egne bygninger (ca. 36 og 44 m – værksted/lade og forråd ifølge annoncen) og en lille bygning på ca. 14 m² ca. 105 m mod vest. Nærmeste anden større bygning ca. 654 m mod syd (OpenStreetMap). Satellitfoto (Esri) viser kun gården selv i en lysning omgivet af skov. Nærmeste større vej (Pårydsgatan) ca. 1,2 km væk. Annoncen: fritidshus/torp fra 1850, äganderätt, fungerende vedkomfur med bageovn plus to godkendte ildsteder, altandæk under tag ved laden, vedfyret sauna, 'avskilt läge' og 'naturen inpå knuten', 1,1 ha med to hagar. Forbehold: enkelt boende – ingen kloak (kun gråvand, das med kemitoilet), strøm kun fra egen vindmølle med batterier og dieselgenerator, boret brønd. Skal der WC/kloak eller el-tilslutning til, kan det koste over 100.000 kr. Fugt og stand af torpargrund er ikke oplyst.",
+   "datakilde": "Microsoft Global ML Building Footprints + OpenStreetMap (via Overture 2026-10-21) + Esri-satellitfoto",
+   "fundet": "2026-11-02",
+   "koeretid_note": "via Øresundsbroen",
+   "billede": "billeder/N14.jpg",
+   "koeretid_min": 271,
+   "koeretid_km": 327
   }
  ]
 }
